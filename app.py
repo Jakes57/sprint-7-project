@@ -40,8 +40,6 @@ if show_scatter:
                      color='condition', title='Precio vs Año del modelo por condición')
     st.plotly_chart(fig, use_container_width=True)
 
-    st.subheader("Crea tu propia gráfica de barras")
-
 if show_pie:
     st.write('Distribución de vehículos por rango de precio')
 
